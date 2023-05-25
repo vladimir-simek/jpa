@@ -40,9 +40,6 @@ public class InterpretEntity {
         return discography;
     }
 
-    public void setDiscography(List<AlbumEntity> discography) {
-        this.discography = discography;
-    }
 
 
 }

@@ -2,7 +2,7 @@ package cz.vladimirsimek.jpa.entities;
 
 import jakarta.persistence.*;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -63,7 +63,4 @@ public class AlbumEntity {
         return songs;
     }
 
-    public void setSongs(List<SongEntity> songs) {
-        this.songs = songs;
-    }
 }

@@ -2,7 +2,7 @@ package cz.vladimirsimek.jpa.entities;
 
 import jakarta.persistence.*;
 
-import java.sql.Date;
+import java.util.Date;
 
 @Entity
 public class SongEntity {
